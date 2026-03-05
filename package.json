@@ -1,0 +1,17 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass src/scss/main.scss src/scss/style.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3",
+    "vite": "^7.3.1",
+    "vite-imagetools": "^10.0.0"
+  }
+}
